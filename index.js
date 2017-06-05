@@ -145,4 +145,4 @@ textarea.addEventListener("keydown", event => {
 });
 
 textarea.placeholder = helloWorld;
-// getMarkdown();
+getMarkdown();
