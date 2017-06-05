@@ -1,0 +1,112 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html, body, h1, h2, p, form, button, textarea, output, pre {
+    padding: 0;
+    margin: 0;
+    font: 12px "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    color: #222;
+    line-height: 1.4;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 0 0 auto;
+}
+
+form {
+    flex: 1 1 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+textarea {
+    flex: 0 1 50%;
+    overflow: auto;
+    resize: none;
+    border: 0;
+    padding: 15px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px;
+    border: 0;
+    cursor: pointer;
+    background: linear-gradient(to right, #ddd 0%, #f8f8f8 100%);
+}
+
+output {
+    flex: 0 1 50%;
+    background-color: #ddd;
+    overflow: auto;
+    position: relative;
+}
+
+h2, p {
+    background-color: #ddd;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+pre {
+    background-color: #f8f8f8;
+    padding: 0 15px;
+    margin: 0;
+    overflow: auto;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+h2 {
+    padding-top: 2px;
+}
+
+p {
+    border-bottom: 2px solid #f8f8f8;
+}
+
+em {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header, h1 {
+    font-size: 25px;
+}
+
+header, footer {
+    padding: 0 5px;
+}
+
+header, h1, footer {
+    background-color: #222;
+    color: #f8f8f8;
+}
+
+h1, footer span {
+    float: left;
+}
+
+header a, footer > a {
+    float: right;
+}
+
+footer strong {
+  font-weight: normal;
+  color: red;
+}
+
+a, a:visited, a:active {
+    color: #a8f;
+}
