@@ -25,6 +25,7 @@ form {
     display: flex;
     flex-direction: row;
     align-items: stretch;
+    overflow-y: hidden;
 }
 
 textarea {
